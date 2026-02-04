@@ -60,8 +60,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-sm text-secondary-foreground/70">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Rua Acácio Serpa, 58
-Leopoldina - MG</span>
+                <span>Rua Acácio Serpa, 538 Leopoldina - MG</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-secondary-foreground/70">
                 <Phone className="w-4 h-4 text-primary" />
