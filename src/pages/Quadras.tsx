@@ -117,7 +117,7 @@ const Quadras = () => {
               Escolha sua quadra
             </span>
             <h2 className="font-display text-4xl md:text-5xl text-foreground mt-3 tracking-wide">
-              RESERVE <span className="text-primary">AGORA</span>
+              RESERVE <span className="text-primary">AGORA  </span>
             </h2>
           </motion.div>
 
