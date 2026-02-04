@@ -71,8 +71,8 @@ Leopoldina - MG</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-secondary-foreground/70">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:contato@arenapraialeopoldina.com.br" className="hover:text-primary transition-colors">
-                  contato@arenapraialeopoldina.com.br
+                <a className="hover:text-primary transition-colors" href="mailto:arenapraialeopoldina@gmail.com">
+                  arenapraialeopoldina@gmail.com
                 </a>
               </li>
             </ul>
