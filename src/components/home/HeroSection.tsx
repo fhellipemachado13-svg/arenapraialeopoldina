@@ -28,9 +28,7 @@ const HeroSection = () => {
           opacity: 1
         }} transition={{
           delay: 0.3
-        }} className="inline-block px-4 py-2 bg-primary/90 text-primary-foreground text-sm font-medium rounded-full mb-6">
-            ✨ 6 Quadras de Areia • Beach Tennis • Futevôlei • Vôlei
-          </motion.span>
+        }} className="inline-block px-4 py-2 bg-primary/90 text-primary-foreground text-sm font-medium rounded-full mb-6"> 6 Quadras de Areia • Beach Tennis • Futevôlei • Vôlei</motion.span>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-white tracking-wider mb-6">
             ESPORTE, DIVERSÃO E
