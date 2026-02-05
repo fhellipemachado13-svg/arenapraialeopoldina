@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Beer, Wine, Coffee, UtensilsCrossed } from "lucide-react";
-import barImage from "@/assets/bar-beach.jpg";
+import barImage from "@/assets/bar-hero.png";
 const menuCategories = [{
   icon: Wine,
   title: "Drinks",
