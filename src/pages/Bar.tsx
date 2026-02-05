@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Beer, Wine, Coffee, UtensilsCrossed } from "lucide-react";
 import barImage from "@/assets/bar-beach.jpg";
+ import porcaoImage from "@/assets/porcao-linguica.png";
 const menuCategories = [{
   icon: Wine,
   title: "Drinks",
@@ -144,6 +145,20 @@ const Bar = () => {
       {/* Menu */}
       <section className="section-padding">
         <div className="container-arena">
+          {/* Featured Porções Image */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 rounded-2xl overflow-hidden shadow-2xl max-w-2xl mx-auto"
+          >
+            <img 
+              src={porcaoImage} 
+              alt="Porção de Linguiça com Batata da Arena" 
+              className="w-full h-auto object-cover"
+            />
+          </motion.div>
+
           <motion.div initial={{
           opacity: 0,
           y: 20
