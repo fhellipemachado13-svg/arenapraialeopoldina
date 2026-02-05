@@ -21,6 +21,9 @@ const navLinks = [{
 }, {
   name: "Contato",
   href: "/contato"
+ }, {
+   name: "Patrocinadores",
+   href: "/patrocinadores"
 }];
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
