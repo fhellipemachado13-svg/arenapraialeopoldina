@@ -122,7 +122,7 @@ const Quadras = () => {
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            {courts.map(court => <motion.div key={court.id} initial={{
+            {courts.map((court) => <motion.div key={court.id} initial={{
             opacity: 0,
             scale: 0.95
           }} whileInView={{
@@ -185,7 +185,7 @@ const Quadras = () => {
           }, {
             title: "Campeonatos",
             desc: "Eventos e torneios personalizados"
-          }].map(item => <div key={item.title} className="text-center">
+          }].map((item) => <div key={item.title} className="text-center">
                 <h3 className="font-display text-xl text-primary mb-2">{item.title}</h3>
                 <p className="text-secondary-foreground/70">{item.desc}</p>
               </div>)}
