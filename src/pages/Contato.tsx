@@ -7,26 +7,26 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Endereço",
-    content: "Rua da Arena, 123 - Leopoldina",
-    sub: "São Paulo - SP, 05033-000",
+    content: "Rua Acácio Serpa, 538 - Leopoldina/MG",
+    sub: "CEP: 36704-079",
   },
   {
     icon: Phone,
     title: "Telefone",
-    content: "(11) 99999-9999",
+    content: "(32) 99954-4409",
     sub: "WhatsApp disponível",
   },
   {
     icon: Mail,
     title: "E-mail",
-    content: "contato@arenapraialeopoldina.com.br",
+    content: "arenapraialeopoldina@gmail.com",
     sub: "Respondemos em até 24h",
   },
   {
     icon: Clock,
     title: "Horário",
-    content: "Seg a Sex: 8h às 23h",
-    sub: "Sáb: 8h às 00h | Dom: 8h às 22h",
+    content: "Seg a Sex: 08h - 23h",
+    sub: "Sáb: 08h - 00h | Dom: 08h - 00h",
   },
 ];
 
