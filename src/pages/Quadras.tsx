@@ -44,7 +44,7 @@ const features = [{
 }, {
   icon: Clock,
   title: "Horário",
-  desc: "Das 8h às 23h"
+  desc: "Das 8h às 00h"
 }];
 const Quadras = () => {
   const [selectedCourt, setSelectedCourt] = useState<number | null>(null);
