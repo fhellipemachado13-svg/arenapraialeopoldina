@@ -11,14 +11,15 @@ const classes = [
     description: "O esporte que mais cresce no Brasil! Aulas para iniciantes e intermediários com professores certificados.",
     image: beachTennisImg,
     levels: ["Iniciante", "Intermediário"],
-    schedule: "Segunda a Sábado",
+
+    schedule: "Confira os dias das aulas",
   },
   {
     title: "Futevôlei",
     description: "Aprenda a arte do futevôlei brasileiro. Técnicas de controle, passes e finalizações.",
     image: futevoleiImg,
-    levels: ["Iniciante", "Intermediário"],
-    schedule: "Terça, Quinta e Sábado",
+    levels: ["Iniciante"],
+    schedule: "Confira os dias das aulas",
   },
 ];
 
@@ -51,7 +52,7 @@ const Aulas = () => {
             animate={{ opacity: 1, y: 0 }}
             className="font-display text-5xl md:text-7xl text-secondary-foreground tracking-wider"
           >
-            AULAS <span className="text-primary">ESPORTIVAS</span>
+            AULAS <span className="text-primary">NA AREIA</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}

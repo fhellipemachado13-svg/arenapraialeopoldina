@@ -2,44 +2,44 @@
  import Layout from "@/components/layout/Layout";
  import { Handshake, Building2 } from "lucide-react";
  
- const sponsors = [
-   {
-     id: 1,
-     name: "Patrocinador 1",
-     description: "Descrição do patrocinador",
-     logo: null,
-   },
-   {
-     id: 2,
-     name: "Patrocinador 2",
-     description: "Descrição do patrocinador",
-     logo: null,
-   },
-   {
-     id: 3,
-     name: "Patrocinador 3",
-     description: "Descrição do patrocinador",
-     logo: null,
-   },
-   {
-     id: 4,
-     name: "Patrocinador 4",
-     description: "Descrição do patrocinador",
-     logo: null,
-   },
-   {
-     id: 5,
-     name: "Patrocinador 5",
-     description: "Descrição do patrocinador",
-     logo: null,
-   },
-   {
-     id: 6,
-     name: "Patrocinador 6",
-     description: "Descrição do patrocinador",
-     logo: null,
-   },
- ];
+const sponsors = [
+  {
+    id: 1,
+    name: "Sol & Neve",
+    description: "Uma marca de sorvetes mineira que está presente em todo o Sudeste, levando sabor, alegria e o melhor de Minas para você e sua família.",
+    logo: null,
+  },
+  {
+    id: 2,
+    name: "Sicoob Credimata",
+    description: "O Sicoob Credimata tem tudo para ser seu.",
+    logo: null,
+  },
+  {
+    id: 3,
+    name: "Água Hélios",
+    description: "Hélios, há mais de 85 anos investindo em qualidade.",
+    logo: null,
+  },
+  {
+    id: 4,
+    name: "Brasil Net",
+    description: "Conectando pessoas.",
+    logo: null,
+  },
+  {
+    id: 5,
+    name: "ITech Solutions",
+    description: "Completa linha de aparelhos celulares e acessórios.",
+    logo: null,
+  },
+  {
+    id: 6,
+    name: "Depósito da Construção",
+    description: "Do início ao fim da sua obra.",
+    logo: null,
+  },
+];
  
  const Patrocinadores = () => {
    return (
