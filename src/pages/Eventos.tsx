@@ -7,21 +7,21 @@ import liveMusic from "@/assets/live-music.jpg";
 const upcomingEvents = [
   {
     date: "08",
-    month: "FEV",
+    month: "MAR",
     day: "Sábado",
-    title: "Pagodin com Batuque de 2",
-    description: "Pagode ao vivo com o grupo Batuque de 2",
+    title: "Batuque de 2",
+    description: "",
     time: "16h às 00h",
-    type: "Ao Vivo",
+    type: "Pagodin",
   },
   {
     date: "14",
     month: "MAR",
     day: "Sábado",
-    title: "Tardezinha Arena Curtâe",
-    description: "Tardezinha especial na Arena com muita música e diversão",
+    title: "Curtâe",
+    description: "",
     time: "16h às 00h",
-    type: "Especial",
+    type: "Tardezinha Arena",
   },
 ];
 
