@@ -86,7 +86,7 @@ const Header = () => {
                   {link.name}
                 </Link>)}
               <Button variant="whatsapp" asChild className="mt-2">
-                <a href="https://wa.me/5511999999999?text=Olá! Quero saber mais sobre a Arena Praia Leopoldina" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <a href="https://wa.me/5532999544409?text=Olá! Quero saber mais sobre a Arena Praia Leopoldina" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
                   Falar pelo WhatsApp
                 </a>

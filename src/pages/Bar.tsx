@@ -211,7 +211,7 @@ const Bar = () => {
               happy hour com os amigos ou eventos especiais.
             </p>
             <Button variant="gradient" size="xl" asChild>
-              <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre o bar e reservas." target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5532999544409?text=Olá! Gostaria de saber mais sobre o bar e reservas." target="_blank" rel="noopener noreferrer">
                 Fazer reserva
               </a>
             </Button>
