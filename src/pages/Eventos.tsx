@@ -9,46 +9,19 @@ const upcomingEvents = [
     date: "08",
     month: "FEV",
     day: "Sábado",
-    title: "Sunset Sessions",
-    description: "DJ Set com os melhores hits do verão",
-    time: "17h às 23h",
-    type: "DJ",
-  },
-  {
-    date: "09",
-    month: "FEV",
-    day: "Domingo",
-    title: "Pagode na Arena",
-    description: "Roda de pagode com grupo convidado",
-    time: "15h às 20h",
+    title: "Pagodin com Batuque de 2",
+    description: "Pagode ao vivo com o grupo Batuque de 2",
+    time: "16h às 00h",
     type: "Ao Vivo",
   },
   {
     date: "14",
-    month: "FEV",
-    day: "Sexta",
-    title: "Valentine's Night",
-    description: "Especial Dia dos Namorados com música ao vivo",
-    time: "19h às 00h",
+    month: "MAR",
+    day: "Sábado",
+    title: "Tardezinha Arena Curtâe",
+    description: "Tardezinha especial na Arena com muita música e diversão",
+    time: "16h às 00h",
     type: "Especial",
-  },
-  {
-    date: "15",
-    month: "FEV",
-    day: "Sábado",
-    title: "Tropical Vibes",
-    description: "Festa temática com DJs e drinks especiais",
-    time: "16h às 23h",
-    type: "Festa",
-  },
-  {
-    date: "22",
-    month: "FEV",
-    day: "Sábado",
-    title: "Rock na Arena",
-    description: "Banda cover dos clássicos do rock",
-    time: "18h às 23h",
-    type: "Ao Vivo",
   },
 ];
 
@@ -168,7 +141,7 @@ const Eventos = () => {
                 <div className="flex-shrink-0">
                   <Button variant="default" asChild>
                     <a
-                      href={`https://wa.me/5511999999999?text=Olá! Quero saber mais sobre o evento "${event.title}" do dia ${event.date}/${event.month}.`}
+                      href={`https://wa.me/5532999544409?text=Olá! Quero saber mais sobre o evento "${event.title}" do dia ${event.date}/${event.month}.`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
