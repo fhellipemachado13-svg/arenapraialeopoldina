@@ -121,7 +121,7 @@ const Contato = () => {
               >
                 <Button variant="whatsapp" size="xl" className="w-full" asChild>
                   <a
-                    href="https://wa.me/5511999999999?text=Olá! Gostaria de falar com a Arena Praia Leopoldina."
+                    href="https://wa.me/5532999544409?text=Olá! Gostaria de falar com a Arena Praia Leopoldina."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2"

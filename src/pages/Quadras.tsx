@@ -159,7 +159,7 @@ const Quadras = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="gradient" size="xl" asChild>
-                <a href={`https://wa.me/5511999999999?text=Olá! Gostaria de reservar ${selectedCourt ? `a Quadra ${selectedCourt}` : "uma quadra"} na Arena Praia Leopoldina.`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <a href={`https://wa.me/5532999544409?text=Olá! Gostaria de reservar ${selectedCourt ? `a Quadra ${selectedCourt}` : "uma quadra"} na Arena Praia Leopoldina.`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Calendar className="w-5 h-5" />
                   Reservar minha quadra
                 </a>

@@ -146,7 +146,7 @@ const Aulas = () => {
 
                   <Button variant="gradient" className="w-full" asChild>
                     <a
-                      href={`https://wa.me/5511999999999?text=Olá! Tenho interesse nas aulas de ${classItem.title}.`}
+                      href={`https://wa.me/5532999544409?text=Olá! Tenho interesse nas aulas de ${classItem.title}.`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -184,7 +184,7 @@ const Aulas = () => {
             </div>
             <Button variant="heroSecondary" size="xl" className="mt-8" asChild>
               <a
-                href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma aula experimental."
+                href="https://wa.me/5532999544409?text=Olá! Gostaria de agendar uma aula experimental."
                 target="_blank"
                 rel="noopener noreferrer"
               >
