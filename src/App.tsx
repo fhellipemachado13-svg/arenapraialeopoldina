@@ -10,7 +10,7 @@ import Bar from "./pages/Bar";
 import Eventos from "./pages/Eventos";
 import Contato from "./pages/Contato";
  import Patrocinadores from "./pages/Patrocinadores";
-import Instagram from "./pages/Instagram";
+// import Instagram from "./pages/Instagram";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,7 +29,7 @@ const App = () => (
           <Route path="/eventos" element={<Eventos />} />
           <Route path="/contato" element={<Contato />} />
            <Route path="/patrocinadores" element={<Patrocinadores />} />
-          <Route path="/instagram" element={<Instagram />} />
+          {/* <Route path="/instagram" element={<Instagram />} /> */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

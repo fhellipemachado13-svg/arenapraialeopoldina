@@ -24,9 +24,6 @@ const navLinks = [{
  }, {
     name: "Patrocinadores",
     href: "/patrocinadores"
-}, {
-    name: "Instagram",
-    href: "/instagram"
 }];
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
